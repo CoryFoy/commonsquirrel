@@ -1,0 +1,1 @@
+This is the source code for http://www.commonsquirrel.com. It's just a single-shot wrapper around the Twitter gem which pulls the latest status for common_squirrel and caches it for x amount of time. Lovingly created by @cory_foy (http://www.coryfoy.com).
