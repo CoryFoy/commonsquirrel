@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Commonsquirrel</title>
+  <title>@common_squirrel</title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <style type="text/css">
+    #quote {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 3em;
+      text-decoration: none;
+    }
+    
+     #quote a:link, #quote a:active, #quote a:visited {
+       text-decoration: none;
+       }
+  </style>
 </head>
-<body>
+<body bgcolor="black">
 
 <%= yield %>
 
